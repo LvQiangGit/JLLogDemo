@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#import <JLLog/JlLog.h>
 @interface ViewController ()
 
 @end
@@ -15,6 +15,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    JlLog* log = [[JlLog alloc]init];
+    [log log123];
     // Do any additional setup after loading the view.
 }
 
