@@ -3,40 +3,54 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08121E4C788CDE8C074A144986008C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		12DA1B8769E17108642CFC498B379E5B /* JLLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9456CB7009E42986844750EE51A54 /* JLLog-dummy.m */; };
-		38E9958CA023E8D466B11143894A3DE9 /* Pods-JLLogDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9E5E02DCC507DED3C6D177D459CA4D /* Pods-JLLogDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		416F04AC9A669851BA1CA4128A4E7F04 /* Pods-JLLogDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1156E64830717007D9B24C4DAD6ACD /* Pods-JLLogDemo-dummy.m */; };
-		4D5EC8EFAC8A8E1951BA6FC3E9191D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		08121E4C788CDE8C074A144986008C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864BFA845803FC8EBB52B761DD240022 /* Foundation.framework */; };
+		159EA21E122D9DC4D3BFB552F8C2E971 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033FAAB808FF1BDA88AEAD79132AF93 /* SVIndefiniteAnimatedView.m */; };
+		1E90B5477B557343AD32A15B1444D136 /* Pods-JLLogDemo-JLLogDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C76A3152AD9B391CC51A41D8D463344 /* Pods-JLLogDemo-JLLogDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E68F30EA84E6B01D6129C2AE3FA6DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0513C3BE25618823A4D302D47BF86355 /* QuartzCore.framework */; };
+		250729A45372869ED02B1BF57A80695A /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDCEBCD015BF403638D02035DF14F07 /* SVRadialGradientLayer.m */; };
+		33F45E1819954E1BFE24724FD5D6AA26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864BFA845803FC8EBB52B761DD240022 /* Foundation.framework */; };
+		35B576CE551F5F502A30C44E67664F25 /* JLLogView.h in Headers */ = {isa = PBXBuildFile; fileRef = D07C8FAB10EB3C24C04F1AE623C522FE /* JLLogView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		377FD6AD5A22FF091676F841ADB6E4BA /* JLLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 067050FFA20E9627533EC728E2A80429 /* JLLogView.m */; };
+		3BF9BEB451F0B81DB72E7AEE166B0278 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4CB59AA510A3604E480EBDFAEBB157 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452597C318B040B8CAA471352103EC98 /* JLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1B2CA35D63C6C7F160945CAFC10BD3 /* JLLog.m */; };
+		47D634BC3ED5B2A36CC04E7A1C734AAC /* Pods-JLLogDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1156E64830717007D9B24C4DAD6ACD /* Pods-JLLogDemo-dummy.m */; };
+		600C428155614E940BF80ACFE410C309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864BFA845803FC8EBB52B761DD240022 /* Foundation.framework */; };
+		63B67B505A6EBB7D34DEF6298B624042 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5932FA360F3E7767848DD4884529F6 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		733165662E2BD1DDE48C6E1C2132080E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864BFA845803FC8EBB52B761DD240022 /* Foundation.framework */; };
+		816FB16C8945BCB17E2407EDEEE7FB16 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6709598378EA169AB490DE1E33FCCE61 /* SVProgressHUD.framework */; };
 		82E846683625F9894E35C9B7E1F8929A /* Pods-JLLogDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BC4ADEB34905E198A21C135549ED3 /* Pods-JLLogDemoTests-dummy.m */; };
-		843D078C405855BFC46A5443DE47D022 /* JlLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A929EEB54B6D8D67C53014D0ED17329C /* JlLog.m */; };
-		8DC274D066FEBCA919FDF5BFB730336B /* JLLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E71B8355016A85FF43030DF505C8DE /* JLLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93BD4CB6442D389804385AC1FD036901 /* JlLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A54A8F833920B5EB20757ED66DF2FA6C /* JlLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98908E1600AB6453180D931B4880C144 /* Pods-JLLogDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C034446412703D3190BDC14B9C2757 /* Pods-JLLogDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1C2F0168C84A2C96BFFF091CD22045E /* Pods-JLLogDemo-JLLogDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C76A3152AD9B391CC51A41D8D463344 /* Pods-JLLogDemo-JLLogDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE724B36D6433A0E456F749FF0A5F7CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BD6A39F5F6174CDB88B1D5EB03AADFB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BFBE145A4C262CBBF9A2296287BDBC03 /* Pods-JLLogDemo-JLLogDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5046BE73F03F504C8BD0B5578465BAB /* Pods-JLLogDemo-JLLogDemoUITests-dummy.m */; };
+		9AE769E21D8501DF2762A8933A4A7C12 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EB90B2FF0DB98436F5AF509D153D5A3E /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A38106716DAF3B856BE095715568385F /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFCAF26AC503271808690ACB26F7698 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6938A06B91ACB86A2111D3F4B8F0F26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864BFA845803FC8EBB52B761DD240022 /* Foundation.framework */; };
+		A76FC583B0DFE719294FA1F538976226 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB7D45B813C6778DAA781458CF26610 /* SVProgressAnimatedView.m */; };
+		AACA9BFA2CE01F0707C807015192AB42 /* Pods-JLLogDemo-JLLogDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5046BE73F03F504C8BD0B5578465BAB /* Pods-JLLogDemo-JLLogDemoUITests-dummy.m */; };
+		B6B0AD821D7C81CFE1093202183B9708 /* JLLogHead.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E99AE690B38187C74A3F88EF5870F3B /* JLLogHead.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D1FBC32E2EB6F5929B2636650DDE4A /* Pods-JLLogDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9E5E02DCC507DED3C6D177D459CA4D /* Pods-JLLogDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA015C2E817548623693A07C307D5F8B /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5268A7529E1DA3674B59682CD8982EA2 /* 2@2x.png */; };
+		BAB948272994334BCD39C26E933C35FB /* JLLog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A3E28F0625E91D8B6CA3BD4331D77D4 /* JLLog.bundle */; };
+		CB7DA1CEB6FB2821358610707E6C80F4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC19AC0F98A3A3D20E30FDB51F37C9C /* SVProgressHUD.m */; };
+		CCCE5CF3E2B57CD302FDAC3348349DF2 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 261FD2BC14513CCC5C040943AD6030E6 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD65ED419E936F9447BA09639C79FCE0 /* JLLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A71BA87898B27DFC6301CC7EC18BB8F /* JLLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5D729F42315A2C14C976FACE4F3433 /* JLLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBB4AA12F244C763DB754E8C24921C1 /* JLLog-dummy.m */; };
+		E1C1B1B7DA11A9F00C0B0A29678E3C8D /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF967441BB9ED1CB33E7054CF37B00C /* SVProgressHUD-dummy.m */; };
+		EC265D65E24F047DDE7EE2BEF8DD964D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB7AAA2019CE0BCA60BDD3D28426C7 /* SVProgressHUD.bundle */; };
+		F423D41FC4C330466063C480265F4C05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F875752453FB29B42CCBDD572FC83 /* UIKit.framework */; };
+		F4D9494E559AC2EDB45928F234E1CDF0 /* JLLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 39651165211035E4318D56200D5BB2B6 /* JLLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F787EA39F839A19ED2742919793EA2B8 /* 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7804A7DEA825451B930965D51DE607 /* 2@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		29BA17130B271DDEC4C11212716B812C /* PBXContainerItemProxy */ = {
+		2909711DA39F072F91FCE040F02A7189 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BB894DD6353D3293614E093FB90A3E7D;
-			remoteInfo = JLLog;
-		};
-		2DF652D2422FAF4036C2F5A9CD2E30D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB894DD6353D3293614E093FB90A3E7D;
-			remoteInfo = JLLog;
+			remoteGlobalIDString = BC19848188769D5C290889C06A79E054;
+			remoteInfo = "JLLog-JLLog";
 		};
 		301DC8BE696799B20BBF69C6CB19D534 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -45,69 +59,149 @@
 			remoteGlobalIDString = 416F910D84B6945A2714A3BBB7443CC0;
 			remoteInfo = "Pods-JLLogDemo";
 		};
+		4F027FF185D25BA12AD422DD4CC34549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		56DD8812D1951F954F201299CCF03F74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB894DD6353D3293614E093FB90A3E7D;
+			remoteInfo = JLLog;
+		};
+		C441504B38EE92E02C69670297DEF4CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		C50BEFFFA913E5B608BF69D83C03F168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		F331FDD8599B565EB6FACCC148B181FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB894DD6353D3293614E093FB90A3E7D;
+			remoteInfo = JLLog;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0513C3BE25618823A4D302D47BF86355 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		05908E291B188F13E8C98D9E4D48BDB6 /* JLLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JLLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		067050FFA20E9627533EC728E2A80429 /* JLLogView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLLogView.m; path = JLLog/Classes/JLLogView.m; sourceTree = "<group>"; };
+		0685BA45163A547083CD6FF4A94261FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		07DD0BB96F65755BCF836DA992A3ADEA /* Pods-JLLogDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLLogDemo-frameworks.sh"; sourceTree = "<group>"; };
+		0CBB7AAA2019CE0BCA60BDD3D28426C7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		0E99AE690B38187C74A3F88EF5870F3B /* JLLogHead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLLogHead.h; path = JLLog/Classes/JLLogHead.h; sourceTree = "<group>"; };
 		108485AC9F5351CBFAFAF03BD24576B2 /* Pods-JLLogDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLLogDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		119A1810E4B1E65FDAE7896FA0A0D4C8 /* Pods-JLLogDemo-JLLogDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLLogDemo-JLLogDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		161B031D9F4FFE0117B60EEDF3BC1DE1 /* JLLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLLog.release.xcconfig; sourceTree = "<group>"; };
+		170AC2C7B8C83EBAA92A245D02EB658D /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		1C0EF55848258E77F106B8F0DB57E068 /* Pods-JLLogDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLLogDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1D4D9502B1D2688F193C4CF248C2471E /* JLLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLLog.debug.xcconfig; sourceTree = "<group>"; };
-		1DE9456CB7009E42986844750EE51A54 /* JLLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLLog-dummy.m"; sourceTree = "<group>"; };
-		1FD1F2AA6230A24EFE6D3360DCD085F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		251704A3AEB8CA6322AB926B48457C8D /* Pods-JLLogDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLLogDemo.release.xcconfig"; sourceTree = "<group>"; };
+		261FD2BC14513CCC5C040943AD6030E6 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		29056C38FBB991F82F31A3323D8886F9 /* Pods-JLLogDemo-JLLogDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLLogDemo-JLLogDemoUITests.modulemap"; sourceTree = "<group>"; };
 		2B1156E64830717007D9B24C4DAD6ACD /* Pods-JLLogDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLLogDemo-dummy.m"; sourceTree = "<group>"; };
 		2C76A3152AD9B391CC51A41D8D463344 /* Pods-JLLogDemo-JLLogDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLLogDemo-JLLogDemoUITests-umbrella.h"; sourceTree = "<group>"; };
 		2D66597FCB5BFFEF3ED3C5B807EF22BF /* Pods-JLLogDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLLogDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		31C25B5E4BEFEF8776C7DE1C3C1EA7B2 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		371F875752453FB29B42CCBDD572FC83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3858136C72F2DAB69AD0D669F516EAD6 /* Pods-JLLogDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLLogDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39651165211035E4318D56200D5BB2B6 /* JLLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLLog.h; path = JLLog/Classes/JLLog.h; sourceTree = "<group>"; };
 		3BC3BED738BF3DE60E7BCA708A21FB7F /* Pods_JLLogDemo_JLLogDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLLogDemo_JLLogDemoUITests.framework; path = "Pods-JLLogDemo-JLLogDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8913EDEB79A927ECED64FADBF3C483 /* Pods-JLLogDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLLogDemo.modulemap"; sourceTree = "<group>"; };
 		45E292E92CC1A3D75DBF849A5A1E1604 /* Pods-JLLogDemo-JLLogDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLLogDemo-JLLogDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		45E71B8355016A85FF43030DF505C8DE /* JLLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLLog-umbrella.h"; sourceTree = "<group>"; };
+		4709B96B2168631CAE54397DD7A966E4 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		4B9E5E02DCC507DED3C6D177D459CA4D /* Pods-JLLogDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLLogDemo-umbrella.h"; sourceTree = "<group>"; };
 		4C52D9CE403F878D216D834112F122A8 /* Pods-JLLogDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLLogDemo-Info.plist"; sourceTree = "<group>"; };
+		5268A7529E1DA3674B59682CD8982EA2 /* 2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "2@2x.png"; path = "JLLog/Assets/2@2x.png"; sourceTree = "<group>"; };
 		5C24149800C4F2C98CA43DB15C2D45FB /* Pods-JLLogDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLLogDemoTests-Info.plist"; sourceTree = "<group>"; };
 		61F5D9032A37BA2D1A9FD8BD83709A40 /* Pods-JLLogDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLLogDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6709598378EA169AB490DE1E33FCCE61 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		687FFBF7341BA4408C96E35AB9107B24 /* Pods-JLLogDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLLogDemoTests.modulemap"; sourceTree = "<group>"; };
-		695BB9A3881F798E13FAE5C59AFDF78F /* JLLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLLog-Info.plist"; sourceTree = "<group>"; };
+		6A3E28F0625E91D8B6CA3BD4331D77D4 /* JLLog.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JLLog.bundle; path = "JLLog-JLLog.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7033FAAB808FF1BDA88AEAD79132AF93 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		7A71BA87898B27DFC6301CC7EC18BB8F /* JLLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLLog-umbrella.h"; sourceTree = "<group>"; };
 		7A8BC4ADEB34905E198A21C135549ED3 /* Pods-JLLogDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLLogDemoTests-dummy.m"; sourceTree = "<group>"; };
-		7FD2E397993648FDFFA37D73D8937FE1 /* JLLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JLLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		864BFA845803FC8EBB52B761DD240022 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88BC836543594907CB603E732546E7BD /* JLLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLLog.debug.xcconfig; sourceTree = "<group>"; };
+		8EC19AC0F98A3A3D20E30FDB51F37C9C /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		9336FD5C27547D340F2F7790654BC1A6 /* Pods-JLLogDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLLogDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		93E89FB242847013FF7CE51A30F24181 /* Pods-JLLogDemo-JLLogDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLLogDemo-JLLogDemoUITests-Info.plist"; sourceTree = "<group>"; };
 		9454EF582EB08CC7A0AC895D542622D1 /* Pods-JLLogDemo-JLLogDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLLogDemo-JLLogDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		97B8C134E2968B0C57C7F68701BDB46E /* JLLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLLog-Info.plist"; sourceTree = "<group>"; };
+		9AF967441BB9ED1CB33E7054CF37B00C /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1B2CA35D63C6C7F160945CAFC10BD3 /* JLLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLLog.m; path = JLLog/Classes/JLLog.m; sourceTree = "<group>"; };
 		A4C034446412703D3190BDC14B9C2757 /* Pods-JLLogDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLLogDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		A54A8F833920B5EB20757ED66DF2FA6C /* JlLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JlLog.h; path = JLLog/Classes/JlLog.h; sourceTree = "<group>"; };
+		A664DB328EEF99A1F38AB4AC7B73EC1D /* JLLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLLog-prefix.pch"; sourceTree = "<group>"; };
 		A6B9B3345912EEE1D8AC072EC0A99418 /* Pods-JLLogDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLLogDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		A929EEB54B6D8D67C53014D0ED17329C /* JlLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JlLog.m; path = JLLog/Classes/JlLog.m; sourceTree = "<group>"; };
 		B26DA6A5608787AFB0AD4168D62B137A /* Pods-JLLogDemo-JLLogDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLLogDemo-JLLogDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BBBFC6C3B48FC43F5C26F7FAC1FC68D3 /* JLLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLLog-prefix.pch"; sourceTree = "<group>"; };
+		B77B62AF1F2C0CEDC36C5A11A94F27E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BC7804A7DEA825451B930965D51DE607 /* 2@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "2@3x.png"; path = "JLLog/Assets/2@3x.png"; sourceTree = "<group>"; };
 		BE93C56F78DB185DFAC133D1AAF917BE /* Pods_JLLogDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLLogDemoTests.framework; path = "Pods-JLLogDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C800E52EA872DCB5D5AD9142B95AB768 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		D07C8FAB10EB3C24C04F1AE623C522FE /* JLLogView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLLogView.h; path = JLLog/Classes/JLLogView.h; sourceTree = "<group>"; };
+		D4702EA6E8E75BAA4A45D72D617FD8CB /* JLLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLLog.release.xcconfig; sourceTree = "<group>"; };
 		DB5A42810453921BEA8FFC99F098C2A2 /* JLLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLLog.framework; path = JLLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC7BBD706E072924AFF5A834F56CE37F /* JLLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLLog.modulemap; sourceTree = "<group>"; };
+		DBFCAF26AC503271808690ACB26F7698 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		DD84A51422C131D295F2985648C6520C /* ResourceBundle-JLLog-JLLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JLLog-JLLog-Info.plist"; sourceTree = "<group>"; };
 		DDC5AB4532ED4E9513E8EBF9B841525D /* Pods-JLLogDemo-JLLogDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLLogDemo-JLLogDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E1EBC63E433D1BDFAB5531D23B9E542E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E3C1BC2E79BBB16958C9E57662D41DA9 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		E5046BE73F03F504C8BD0B5578465BAB /* Pods-JLLogDemo-JLLogDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLLogDemo-JLLogDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB90B2FF0DB98436F5AF509D153D5A3E /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		EF4CB59AA510A3604E480EBDFAEBB157 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		F0C0B11AE986476BFB8EDD76F1933C85 /* JLLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLLog.modulemap; sourceTree = "<group>"; };
+		FA5932FA360F3E7767848DD4884529F6 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		FBBB4AA12F244C763DB754E8C24921C1 /* JLLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLLog-dummy.m"; sourceTree = "<group>"; };
 		FD12EB40214F87386E991E8A1D00A73C /* Pods_JLLogDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLLogDemo.framework; path = "Pods-JLLogDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB7D45B813C6778DAA781458CF26610 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		FEDCEBCD015BF403638D02035DF14F07 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04A3A3833963B4D1644FF119D95640DB /* Frameworks */ = {
+		061EDF8D1406EFCD56D30229FD795B37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE724B36D6433A0E456F749FF0A5F7CF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1AAEB8DBBB77FE7C02AD1947453FA8D3 /* Frameworks */ = {
+		20E234F558E4D35BA6E850482036918F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D5EC8EFAC8A8E1951BA6FC3E9191D5E /* Foundation.framework in Frameworks */,
+				600C428155614E940BF80ACFE410C309 /* Foundation.framework in Frameworks */,
+				24E68F30EA84E6B01D6129C2AE3FA6DB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEB4017C3615DFEE844BA458D18C5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F45E1819954E1BFE24724FD5D6AA26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51CA4C6E5E69FECB642EF7448DA9AF2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733165662E2BD1DDE48C6E1C2132080E /* Foundation.framework in Frameworks */,
+				816FB16C8945BCB17E2407EDEEE7FB16 /* SVProgressHUD.framework in Frameworks */,
+				F423D41FC4C330466063C480265F4C05 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,25 +213,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0AB26F497CDEBCDBCCA3B3595B8CB4F /* Frameworks */ = {
+		D2D71879B6FC2CE1A95571CE3E87D867 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD6A39F5F6174CDB88B1D5EB03AADFB2 /* Foundation.framework in Frameworks */,
+				A6938A06B91ACB86A2111D3F4B8F0F26 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0838F9E1AA6F3341927650D3F23D7299 /* Pod */ = {
+		01EE49549F681FE5B5461A05F0D9851A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7FD2E397993648FDFFA37D73D8937FE1 /* JLLog.podspec */,
-				E1EBC63E433D1BDFAB5531D23B9E542E /* LICENSE */,
-				1FD1F2AA6230A24EFE6D3360DCD085F2 /* README.md */,
+				5268A7529E1DA3674B59682CD8982EA2 /* 2@2x.png */,
+				BC7804A7DEA825451B930965D51DE607 /* 2@3x.png */,
 			);
-			name = Pod;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		13127083EFF467E39620243C24377B91 /* Pods-JLLogDemo */ = {
@@ -157,24 +250,52 @@
 			path = "Target Support Files/Pods-JLLogDemo";
 			sourceTree = "<group>";
 		};
-		2729E3F05F6427486551AC2EB801BB7E /* Development Pods */ = {
+		1C89CF5ABADC2C57F572D1AC4E26E0A9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E8086AE27EF3AD325E8CDFFD7AB7AD5E /* JLLog */,
+				864BFA845803FC8EBB52B761DD240022 /* Foundation.framework */,
+				0513C3BE25618823A4D302D47BF86355 /* QuartzCore.framework */,
+				371F875752453FB29B42CCBDD572FC83 /* UIKit.framework */,
 			);
-			name = "Development Pods";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		531E9E159760FEF6923113C422704C9A /* Support Files */ = {
+		2224F2A9FC55133AC8EC77539EF3EE73 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC7BBD706E072924AFF5A834F56CE37F /* JLLog.modulemap */,
-				1DE9456CB7009E42986844750EE51A54 /* JLLog-dummy.m */,
-				695BB9A3881F798E13FAE5C59AFDF78F /* JLLog-Info.plist */,
-				BBBFC6C3B48FC43F5C26F7FAC1FC68D3 /* JLLog-prefix.pch */,
-				45E71B8355016A85FF43030DF505C8DE /* JLLog-umbrella.h */,
-				1D4D9502B1D2688F193C4CF248C2471E /* JLLog.debug.xcconfig */,
-				161B031D9F4FFE0117B60EEDF3BC1DE1 /* JLLog.release.xcconfig */,
+				4709B96B2168631CAE54397DD7A966E4 /* SVProgressHUD.modulemap */,
+				9AF967441BB9ED1CB33E7054CF37B00C /* SVProgressHUD-dummy.m */,
+				170AC2C7B8C83EBAA92A245D02EB658D /* SVProgressHUD-Info.plist */,
+				E3C1BC2E79BBB16958C9E57662D41DA9 /* SVProgressHUD-prefix.pch */,
+				DBFCAF26AC503271808690ACB26F7698 /* SVProgressHUD-umbrella.h */,
+				31C25B5E4BEFEF8776C7DE1C3C1EA7B2 /* SVProgressHUD.debug.xcconfig */,
+				C800E52EA872DCB5D5AD9142B95AB768 /* SVProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		2B60D7A226B660C9B8E45200BB867ED6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				05908E291B188F13E8C98D9E4D48BDB6 /* JLLog.podspec */,
+				B77B62AF1F2C0CEDC36C5A11A94F27E5 /* LICENSE */,
+				0685BA45163A547083CD6FF4A94261FC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		364C7B51A7EE6600829029D57B4F35E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0C0B11AE986476BFB8EDD76F1933C85 /* JLLog.modulemap */,
+				FBBB4AA12F244C763DB754E8C24921C1 /* JLLog-dummy.m */,
+				97B8C134E2968B0C57C7F68701BDB46E /* JLLog-Info.plist */,
+				A664DB328EEF99A1F38AB4AC7B73EC1D /* JLLog-prefix.pch */,
+				7A71BA87898B27DFC6301CC7EC18BB8F /* JLLog-umbrella.h */,
+				88BC836543594907CB603E732546E7BD /* JLLog.debug.xcconfig */,
+				D4702EA6E8E75BAA4A45D72D617FD8CB /* JLLog.release.xcconfig */,
+				DD84A51422C131D295F2985648C6520C /* ResourceBundle-JLLog-JLLog-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Pods/Target Support Files/JLLog";
@@ -206,6 +327,14 @@
 			path = "Target Support Files/Pods-JLLogDemoTests";
 			sourceTree = "<group>";
 		};
+		A1FC91EE57D117D1692B9FE4721A7580 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB7AAA2019CE0BCA60BDD3D28426C7 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		B41AD7477154173FC047721AC72F1D05 /* Pods-JLLogDemo-JLLogDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,81 +352,101 @@
 			path = "Target Support Files/Pods-JLLogDemo-JLLogDemoUITests";
 			sourceTree = "<group>";
 		};
-		B5346E587F620142C3F89F00B3F89272 /* Products */ = {
+		B7C93494E3F0581E7F0121C030897F6C /* JLLog */ = {
 			isa = PBXGroup;
 			children = (
-				DB5A42810453921BEA8FFC99F098C2A2 /* JLLog.framework */,
-				FD12EB40214F87386E991E8A1D00A73C /* Pods_JLLogDemo.framework */,
-				3BC3BED738BF3DE60E7BCA708A21FB7F /* Pods_JLLogDemo_JLLogDemoUITests.framework */,
-				BE93C56F78DB185DFAC133D1AAF917BE /* Pods_JLLogDemoTests.framework */,
+				39651165211035E4318D56200D5BB2B6 /* JLLog.h */,
+				9E1B2CA35D63C6C7F160945CAFC10BD3 /* JLLog.m */,
+				0E99AE690B38187C74A3F88EF5870F3B /* JLLogHead.h */,
+				D07C8FAB10EB3C24C04F1AE623C522FE /* JLLogView.h */,
+				067050FFA20E9627533EC728E2A80429 /* JLLogView.m */,
+				2B60D7A226B660C9B8E45200BB867ED6 /* Pod */,
+				01EE49549F681FE5B5461A05F0D9851A /* Resources */,
+				364C7B51A7EE6600829029D57B4F35E5 /* Support Files */,
 			);
-			name = Products;
+			name = JLLog;
+			path = ../JLLog;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C6192831BFB6479459CD82FE67BB3EDA /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				FA5932FA360F3E7767848DD4884529F6 /* SVIndefiniteAnimatedView.h */,
+				7033FAAB808FF1BDA88AEAD79132AF93 /* SVIndefiniteAnimatedView.m */,
+				261FD2BC14513CCC5C040943AD6030E6 /* SVProgressAnimatedView.h */,
+				FDB7D45B813C6778DAA781458CF26610 /* SVProgressAnimatedView.m */,
+				EF4CB59AA510A3604E480EBDFAEBB157 /* SVProgressHUD.h */,
+				8EC19AC0F98A3A3D20E30FDB51F37C9C /* SVProgressHUD.m */,
+				EB90B2FF0DB98436F5AF509D153D5A3E /* SVRadialGradientLayer.h */,
+				FEDCEBCD015BF403638D02035DF14F07 /* SVRadialGradientLayer.m */,
+				A1FC91EE57D117D1692B9FE4721A7580 /* Resources */,
+				2224F2A9FC55133AC8EC77539EF3EE73 /* Support Files */,
 			);
-			name = iOS;
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		CC41CD8B10DB041F560EABA7211CA8F0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7C93494E3F0581E7F0121C030897F6C /* JLLog */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2729E3F05F6427486551AC2EB801BB7E /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				B5346E587F620142C3F89F00B3F89272 /* Products */,
+				CC41CD8B10DB041F560EABA7211CA8F0 /* Development Pods */,
+				D37F57F48D710612F8ACB898E81204E8 /* Frameworks */,
+				D0F28EFC8C9E325880381D586C3CA919 /* Pods */,
+				CF4F92FD504C7B4E2081DBFBBF950A55 /* Products */,
 				8A9E745A5D9832C1A579054F672424EB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		CF4F92FD504C7B4E2081DBFBBF950A55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				6A3E28F0625E91D8B6CA3BD4331D77D4 /* JLLog.bundle */,
+				DB5A42810453921BEA8FFC99F098C2A2 /* JLLog.framework */,
+				FD12EB40214F87386E991E8A1D00A73C /* Pods_JLLogDemo.framework */,
+				3BC3BED738BF3DE60E7BCA708A21FB7F /* Pods_JLLogDemo_JLLogDemoUITests.framework */,
+				BE93C56F78DB185DFAC133D1AAF917BE /* Pods_JLLogDemoTests.framework */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		E8086AE27EF3AD325E8CDFFD7AB7AD5E /* JLLog */ = {
+		D0F28EFC8C9E325880381D586C3CA919 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A54A8F833920B5EB20757ED66DF2FA6C /* JlLog.h */,
-				A929EEB54B6D8D67C53014D0ED17329C /* JlLog.m */,
-				0838F9E1AA6F3341927650D3F23D7299 /* Pod */,
-				531E9E159760FEF6923113C422704C9A /* Support Files */,
+				C6192831BFB6479459CD82FE67BB3EDA /* SVProgressHUD */,
 			);
-			name = JLLog;
-			path = ../JLLog;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D37F57F48D710612F8ACB898E81204E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6709598378EA169AB490DE1E33FCCE61 /* SVProgressHUD.framework */,
+				1C89CF5ABADC2C57F572D1AC4E26E0A9 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		32A41C312EF15619BBCD16B8FFC48ED0 /* Headers */ = {
+		6BB2F5204106541C3F68A576DBCCC91C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38E9958CA023E8D466B11143894A3DE9 /* Pods-JLLogDemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5ACCFB2E77FB527869D2A90ADF149CFD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8DC274D066FEBCA919FDF5BFB730336B /* JLLog-umbrella.h in Headers */,
-				93BD4CB6442D389804385AC1FD036901 /* JlLog.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F4F8F839F91A8B3B7537AC21DF64CD8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1C2F0168C84A2C96BFFF091CD22045E /* Pods-JLLogDemo-JLLogDemoUITests-umbrella.h in Headers */,
+				CD65ED419E936F9447BA09639C79FCE0 /* JLLog-umbrella.h in Headers */,
+				F4D9494E559AC2EDB45928F234E1CDF0 /* JLLog.h in Headers */,
+				B6B0AD821D7C81CFE1093202183B9708 /* JLLogHead.h in Headers */,
+				35B576CE551F5F502A30C44E67664F25 /* JLLogView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,22 +458,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A539FA8DBD8F87E5ACF57701A809C6E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E90B5477B557343AD32A15B1444D136 /* Pods-JLLogDemo-JLLogDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A9BD557526640536CEB1DB7104F56C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D1FBC32E2EB6F5929B2636650DDE4A /* Pods-JLLogDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA11CC05223A492421CF34468CE92F16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B67B505A6EBB7D34DEF6298B624042 /* SVIndefiniteAnimatedView.h in Headers */,
+				CCCE5CF3E2B57CD302FDAC3348349DF2 /* SVProgressAnimatedView.h in Headers */,
+				A38106716DAF3B856BE095715568385F /* SVProgressHUD-umbrella.h in Headers */,
+				3BF9BEB451F0B81DB72E7AEE166B0278 /* SVProgressHUD.h in Headers */,
+				9AE769E21D8501DF2762A8933A4A7C12 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		416F910D84B6945A2714A3BBB7443CC0 /* Pods-JLLogDemo */ = {
+		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B87A2FC900A14CE2EA1FAEB826BFB339 /* Build configuration list for PBXNativeTarget "Pods-JLLogDemo" */;
+			buildConfigurationList = 254972B58BC4E3BC41E3F8F824407E46 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				32A41C312EF15619BBCD16B8FFC48ED0 /* Headers */,
-				3D37CFC65CBE8E6FEA6BF7E26E5FB8CE /* Sources */,
-				04A3A3833963B4D1644FF119D95640DB /* Frameworks */,
-				DF88D629B5587D6EA2E7A9E7FB704474 /* Resources */,
+				EA11CC05223A492421CF34468CE92F16 /* Headers */,
+				8E276DFA49A24C1F98394772E721F045 /* Sources */,
+				20E234F558E4D35BA6E850482036918F /* Frameworks */,
+				F47C7A9A5C1D6A7AEFD4E5DB1E183FF2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4A9CD7A848CCB52510E40F67912A14C1 /* PBXTargetDependency */,
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		416F910D84B6945A2714A3BBB7443CC0 /* Pods-JLLogDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EC6536ACEA810BAAA80E92B16E5A70 /* Build configuration list for PBXNativeTarget "Pods-JLLogDemo" */;
+			buildPhases = (
+				A8A9BD557526640536CEB1DB7104F56C /* Headers */,
+				A307F055E07497CF05450B9B5EF52A7D /* Sources */,
+				D2D71879B6FC2CE1A95571CE3E87D867 /* Frameworks */,
+				3052064E99228EFF9251D52D6B14A424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78966DB703FBCA2030F8282E4D44FF93 /* PBXTargetDependency */,
+				78D244793387F6C74FFCAA1DE1E05F52 /* PBXTargetDependency */,
 			);
 			name = "Pods-JLLogDemo";
 			productName = "Pods-JLLogDemo";
@@ -352,35 +548,55 @@
 		};
 		BB894DD6353D3293614E093FB90A3E7D /* JLLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E4DB3593105D957E60BEFD1F64E306A /* Build configuration list for PBXNativeTarget "JLLog" */;
+			buildConfigurationList = 29824ABEED0DF3B16D14AD9EE34471D9 /* Build configuration list for PBXNativeTarget "JLLog" */;
 			buildPhases = (
-				5ACCFB2E77FB527869D2A90ADF149CFD /* Headers */,
-				957F0829F21E57910EB34A2FCC3E7050 /* Sources */,
-				1AAEB8DBBB77FE7C02AD1947453FA8D3 /* Frameworks */,
-				6CDA8971D4233D3B3F8207C0E769AE67 /* Resources */,
+				6BB2F5204106541C3F68A576DBCCC91C /* Headers */,
+				D0C7796424000CAA54977F793D6FB4FF /* Sources */,
+				51CA4C6E5E69FECB642EF7448DA9AF2B /* Frameworks */,
+				A98169E0D8CA239929ACE99FED9D8E4C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E080D3E815F6358DBD389BBC84186A0D /* PBXTargetDependency */,
+				0698A4B1CFB70DCBC64445FFED332618 /* PBXTargetDependency */,
 			);
 			name = JLLog;
 			productName = JLLog;
 			productReference = DB5A42810453921BEA8FFC99F098C2A2 /* JLLog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BFA0878242B5AB68154C88FD762C160D /* Pods-JLLogDemo-JLLogDemoUITests */ = {
+		BC19848188769D5C290889C06A79E054 /* JLLog-JLLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00BD06B2325E03EA55A23F1B0973EB56 /* Build configuration list for PBXNativeTarget "Pods-JLLogDemo-JLLogDemoUITests" */;
+			buildConfigurationList = 75924F7D110C7437343A2A3E4CA198FB /* Build configuration list for PBXNativeTarget "JLLog-JLLog" */;
 			buildPhases = (
-				5F4F8F839F91A8B3B7537AC21DF64CD8 /* Headers */,
-				73E561A10CD1F9A244063BDD6AA85965 /* Sources */,
-				F0AB26F497CDEBCDBCCA3B3595B8CB4F /* Frameworks */,
-				D12ACEEB68769FAA965D3F57C9189D92 /* Resources */,
+				1D83D266B8FF597E3AB33F13B003C703 /* Sources */,
+				061EDF8D1406EFCD56D30229FD795B37 /* Frameworks */,
+				7915992E0C15EDF400BC48C5A20DE4F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3021D8A6991077F804CBA032D7BBA27 /* PBXTargetDependency */,
+			);
+			name = "JLLog-JLLog";
+			productName = "JLLog-JLLog";
+			productReference = 6A3E28F0625E91D8B6CA3BD4331D77D4 /* JLLog.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BFA0878242B5AB68154C88FD762C160D /* Pods-JLLogDemo-JLLogDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443DF6AAB232D373BCC15C09C956A2B9 /* Build configuration list for PBXNativeTarget "Pods-JLLogDemo-JLLogDemoUITests" */;
+			buildPhases = (
+				A539FA8DBD8F87E5ACF57701A809C6E9 /* Headers */,
+				19473D2FB6099F21D500D28EDBD0818E /* Sources */,
+				4BEB4017C3615DFEE844BA458D18C5AA /* Frameworks */,
+				A7A58B18C31BB1C3C022B775FBB75A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87E8EA39D7FEDF0A5B8760988F32F8EA /* PBXTargetDependency */,
+				3D95052D57825EB1DF77079FEF53C958 /* PBXTargetDependency */,
 			);
 			name = "Pods-JLLogDemo-JLLogDemoUITests";
 			productName = "Pods-JLLogDemo-JLLogDemoUITests";
@@ -397,7 +613,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -405,14 +621,16 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B5346E587F620142C3F89F00B3F89272 /* Products */;
+			productRefGroup = CF4F92FD504C7B4E2081DBFBBF950A55 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BB894DD6353D3293614E093FB90A3E7D /* JLLog */,
+				BC19848188769D5C290889C06A79E054 /* JLLog-JLLog */,
 				416F910D84B6945A2714A3BBB7443CC0 /* Pods-JLLogDemo */,
 				BFA0878242B5AB68154C88FD762C160D /* Pods-JLLogDemo-JLLogDemoUITests */,
 				51AF9AB09D032F76B5DF875507DF0632 /* Pods-JLLogDemoTests */,
+				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
@@ -425,30 +643,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CDA8971D4233D3B3F8207C0E769AE67 /* Resources */ = {
+		3052064E99228EFF9251D52D6B14A424 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D12ACEEB68769FAA965D3F57C9189D92 /* Resources */ = {
+		7915992E0C15EDF400BC48C5A20DE4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA015C2E817548623693A07C307D5F8B /* 2@2x.png in Resources */,
+				F787EA39F839A19ED2742919793EA2B8 /* 2@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A58B18C31BB1C3C022B775FBB75A32 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF88D629B5587D6EA2E7A9E7FB704474 /* Resources */ = {
+		A98169E0D8CA239929ACE99FED9D8E4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB948272994334BCD39C26E933C35FB /* JLLog.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47C7A9A5C1D6A7AEFD4E5DB1E183FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC265D65E24F047DDE7EE2BEF8DD964D /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		19473D2FB6099F21D500D28EDBD0818E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACA9BFA2CE01F0707C807015192AB42 /* Pods-JLLogDemo-JLLogDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D83D266B8FF597E3AB33F13B003C703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A423D6875897D00E05B6BB23E258C1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,39 +708,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D37CFC65CBE8E6FEA6BF7E26E5FB8CE /* Sources */ = {
+		8E276DFA49A24C1F98394772E721F045 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				416F04AC9A669851BA1CA4128A4E7F04 /* Pods-JLLogDemo-dummy.m in Sources */,
+				159EA21E122D9DC4D3BFB552F8C2E971 /* SVIndefiniteAnimatedView.m in Sources */,
+				A76FC583B0DFE719294FA1F538976226 /* SVProgressAnimatedView.m in Sources */,
+				E1C1B1B7DA11A9F00C0B0A29678E3C8D /* SVProgressHUD-dummy.m in Sources */,
+				CB7DA1CEB6FB2821358610707E6C80F4 /* SVProgressHUD.m in Sources */,
+				250729A45372869ED02B1BF57A80695A /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73E561A10CD1F9A244063BDD6AA85965 /* Sources */ = {
+		A307F055E07497CF05450B9B5EF52A7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBE145A4C262CBBF9A2296287BDBC03 /* Pods-JLLogDemo-JLLogDemoUITests-dummy.m in Sources */,
+				47D634BC3ED5B2A36CC04E7A1C734AAC /* Pods-JLLogDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		957F0829F21E57910EB34A2FCC3E7050 /* Sources */ = {
+		D0C7796424000CAA54977F793D6FB4FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12DA1B8769E17108642CFC498B379E5B /* JLLog-dummy.m in Sources */,
-				843D078C405855BFC46A5443DE47D022 /* JlLog.m in Sources */,
+				DE5D729F42315A2C14C976FACE4F3433 /* JLLog-dummy.m in Sources */,
+				452597C318B040B8CAA471352103EC98 /* JLLog.m in Sources */,
+				377FD6AD5A22FF091676F841ADB6E4BA /* JLLogView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4A9CD7A848CCB52510E40F67912A14C1 /* PBXTargetDependency */ = {
+		0698A4B1CFB70DCBC64445FFED332618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = C50BEFFFA913E5B608BF69D83C03F168 /* PBXContainerItemProxy */;
+		};
+		3D95052D57825EB1DF77079FEF53C958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 4F027FF185D25BA12AD422DD4CC34549 /* PBXContainerItemProxy */;
+		};
+		78966DB703FBCA2030F8282E4D44FF93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JLLog;
 			target = BB894DD6353D3293614E093FB90A3E7D /* JLLog */;
-			targetProxy = 29BA17130B271DDEC4C11212716B812C /* PBXContainerItemProxy */;
+			targetProxy = F331FDD8599B565EB6FACCC148B181FA /* PBXContainerItemProxy */;
+		};
+		78D244793387F6C74FFCAA1DE1E05F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = C441504B38EE92E02C69670297DEF4CE /* PBXContainerItemProxy */;
+		};
+		87E8EA39D7FEDF0A5B8760988F32F8EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLLog;
+			target = BB894DD6353D3293614E093FB90A3E7D /* JLLog */;
+			targetProxy = 56DD8812D1951F954F201299CCF03F74 /* PBXContainerItemProxy */;
 		};
 		AD4B8729F7B4E55C253015318D9B1722 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -497,59 +777,20 @@
 			target = 416F910D84B6945A2714A3BBB7443CC0 /* Pods-JLLogDemo */;
 			targetProxy = 301DC8BE696799B20BBF69C6CB19D534 /* PBXContainerItemProxy */;
 		};
-		F3021D8A6991077F804CBA032D7BBA27 /* PBXTargetDependency */ = {
+		E080D3E815F6358DBD389BBC84186A0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JLLog;
-			target = BB894DD6353D3293614E093FB90A3E7D /* JLLog */;
-			targetProxy = 2DF652D2422FAF4036C2F5A9CD2E30D7 /* PBXContainerItemProxy */;
+			name = "JLLog-JLLog";
+			target = BC19848188769D5C290889C06A79E054 /* JLLog-JLLog */;
+			targetProxy = 2909711DA39F072F91FCE040F02A7189 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		290295CEB7D5BD32C7A6238B667D65FD /* Debug */ = {
+		00F8C9AFF41F67D92F05E6011093A347 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6B9B3345912EEE1D8AC072EC0A99418 /* Pods-JLLogDemo.debug.xcconfig */;
+			baseConfigurationReference = 45E292E92CC1A3D75DBF849A5A1E1604 /* Pods-JLLogDemo-JLLogDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JLLogDemo/Pods-JLLogDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JLLogDemo/Pods-JLLogDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3E04333CE3C7725BEEC76F1FC338720E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B26DA6A5608787AFB0AD4168D62B137A /* Pods-JLLogDemo-JLLogDemoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -561,7 +802,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JLLogDemo-JLLogDemoUITests/Pods-JLLogDemo-JLLogDemoUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,17 +818,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		6D5564E338FDBAFCBD3DC3E77B2913EB /* Release */ = {
+		29FA4AA7D126B959F630E909651674F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 108485AC9F5351CBFAFAF03BD24576B2 /* Pods-JLLogDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -599,7 +840,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JLLogDemoTests/Pods-JLLogDemoTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -621,9 +862,9 @@
 			};
 			name = Release;
 		};
-		7FEB0ACD0FFF57AEF84674B780C900A8 /* Release */ = {
+		2EB78170CFBF65262DF990FD0308A4B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 161B031D9F4FFE0117B60EEDF3BC1DE1 /* JLLog.release.xcconfig */;
+			baseConfigurationReference = D4702EA6E8E75BAA4A45D72D617FD8CB /* JLLog.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -656,9 +897,9 @@
 			};
 			name = Release;
 		};
-		909A78EB7D23722547D43C18CD29EDB8 /* Debug */ = {
+		6AC9BC3951D5D1A0D248312A07CDCAF4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D4D9502B1D2688F193C4CF248C2471E /* JLLog.debug.xcconfig */;
+			baseConfigurationReference = C800E52EA872DCB5D5AD9142B95AB768 /* SVProgressHUD.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -669,8 +910,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JLLog/JLLog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JLLog/JLLog-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -678,19 +919,97 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/JLLog/JLLog.modulemap";
-				PRODUCT_MODULE_NAME = JLLog;
-				PRODUCT_NAME = JLLog;
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		922C8359306D0A3B8ED7131B46F5A721 /* Debug */ = {
+		8B0B1FBAD874AC26ECF0EC7261120E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4702EA6E8E75BAA4A45D72D617FD8CB /* JLLog.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JLLog";
+				IBSC_MODULE = JLLog;
+				INFOPLIST_FILE = "Target Support Files/JLLog/ResourceBundle-JLLog-JLLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JLLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -741,7 +1060,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -754,51 +1073,28 @@
 			};
 			name = Debug;
 		};
-		C6D91D4DE917BE08F8DC3BF9AAA20EF2 /* Release */ = {
+		AE166E32B70DAB5C74BB3E1E6B5ADF74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E292E92CC1A3D75DBF849A5A1E1604 /* Pods-JLLogDemo-JLLogDemoUITests.release.xcconfig */;
+			baseConfigurationReference = 88BC836543594907CB603E732546E7BD /* JLLog.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JLLogDemo-JLLogDemoUITests/Pods-JLLogDemo-JLLogDemoUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JLLogDemo-JLLogDemoUITests/Pods-JLLogDemo-JLLogDemoUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JLLog";
+				IBSC_MODULE = JLLog;
+				INFOPLIST_FILE = "Target Support Files/JLLog/ResourceBundle-JLLog-JLLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JLLog;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		D2ACAFC018D3DCFB3D20BED2B94B5732 /* Release */ = {
+		AF524ED1A186E0D479284C22AA2E05CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 251704A3AEB8CA6322AB926B48457C8D /* Pods-JLLogDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -810,7 +1106,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JLLogDemo/Pods-JLLogDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -832,72 +1128,11 @@
 			};
 			name = Release;
 		};
-		D832C8FC372204ACDCC9FE9C0FC41919 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		E304C98F5D2EE37DC4D1FFB2A9177D83 /* Debug */ = {
+		BCC39F808D21A27E97EB596EEF6E0A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61F5D9032A37BA2D1A9FD8BD83709A40 /* Pods-JLLogDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -909,7 +1144,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JLLogDemoTests/Pods-JLLogDemoTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -930,23 +1165,183 @@
 			};
 			name = Debug;
 		};
+		C12EA3E3973EDF6D34E1C90F7306CEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BC836543594907CB603E732546E7BD /* JLLog.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLLog/JLLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLLog/JLLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JLLog/JLLog.modulemap";
+				PRODUCT_MODULE_NAME = JLLog;
+				PRODUCT_NAME = JLLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA8D9D6823636EBFD2A7982E58F71D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26DA6A5608787AFB0AD4168D62B137A /* Pods-JLLogDemo-JLLogDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLLogDemo-JLLogDemoUITests/Pods-JLLogDemo-JLLogDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLLogDemo-JLLogDemoUITests/Pods-JLLogDemo-JLLogDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD824E4574EB617B607B9092ECDF7DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B9B3345912EEE1D8AC072EC0A99418 /* Pods-JLLogDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLLogDemo/Pods-JLLogDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLLogDemo/Pods-JLLogDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED85412AE9F889C5A373D6F779C42ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C25B5E4BEFEF8776C7DE1C3C1EA7B2 /* SVProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00BD06B2325E03EA55A23F1B0973EB56 /* Build configuration list for PBXNativeTarget "Pods-JLLogDemo-JLLogDemoUITests" */ = {
+		19D253F5745BFE000F6BB5FDB9E298EB /* Build configuration list for PBXNativeTarget "Pods-JLLogDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E04333CE3C7725BEEC76F1FC338720E /* Debug */,
-				C6D91D4DE917BE08F8DC3BF9AAA20EF2 /* Release */,
+				BCC39F808D21A27E97EB596EEF6E0A19 /* Debug */,
+				29FA4AA7D126B959F630E909651674F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19D253F5745BFE000F6BB5FDB9E298EB /* Build configuration list for PBXNativeTarget "Pods-JLLogDemoTests" */ = {
+		254972B58BC4E3BC41E3F8F824407E46 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E304C98F5D2EE37DC4D1FFB2A9177D83 /* Debug */,
-				6D5564E338FDBAFCBD3DC3E77B2913EB /* Release */,
+				ED85412AE9F889C5A373D6F779C42ACC /* Debug */,
+				6AC9BC3951D5D1A0D248312A07CDCAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29824ABEED0DF3B16D14AD9EE34471D9 /* Build configuration list for PBXNativeTarget "JLLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12EA3E3973EDF6D34E1C90F7306CEBF /* Debug */,
+				2EB78170CFBF65262DF990FD0308A4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443DF6AAB232D373BCC15C09C956A2B9 /* Build configuration list for PBXNativeTarget "Pods-JLLogDemo-JLLogDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8D9D6823636EBFD2A7982E58F71D0A /* Debug */,
+				00F8C9AFF41F67D92F05E6011093A347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -954,26 +1349,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				922C8359306D0A3B8ED7131B46F5A721 /* Debug */,
-				D832C8FC372204ACDCC9FE9C0FC41919 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E4DB3593105D957E60BEFD1F64E306A /* Build configuration list for PBXNativeTarget "JLLog" */ = {
+		75924F7D110C7437343A2A3E4CA198FB /* Build configuration list for PBXNativeTarget "JLLog-JLLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				909A78EB7D23722547D43C18CD29EDB8 /* Debug */,
-				7FEB0ACD0FFF57AEF84674B780C900A8 /* Release */,
+				AE166E32B70DAB5C74BB3E1E6B5ADF74 /* Debug */,
+				8B0B1FBAD874AC26ECF0EC7261120E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B87A2FC900A14CE2EA1FAEB826BFB339 /* Build configuration list for PBXNativeTarget "Pods-JLLogDemo" */ = {
+		D5EC6536ACEA810BAAA80E92B16E5A70 /* Build configuration list for PBXNativeTarget "Pods-JLLogDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				290295CEB7D5BD32C7A6238B667D65FD /* Debug */,
-				D2ACAFC018D3DCFB3D20BED2B94B5732 /* Release */,
+				DD824E4574EB617B607B9092ECDF7DB3 /* Debug */,
+				AF524ED1A186E0D479284C22AA2E05CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

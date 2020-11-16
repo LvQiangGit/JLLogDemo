@@ -10,7 +10,9 @@
 #endif
 #endif
 
-#import "JlLog.h"
+#import "JLLog.h"
+#import "JLLogHead.h"
+#import "JLLogView.h"
 
 FOUNDATION_EXPORT double JLLogVersionNumber;
 FOUNDATION_EXPORT const unsigned char JLLogVersionString[];

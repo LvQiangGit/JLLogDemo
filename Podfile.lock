@@ -1,15 +1,22 @@
 PODS:
-  - JLLog (0.1.0)
+  - JLLog (0.2.0):
+    - SVProgressHUD
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - JLLog (from `JLLog`)
+
+SPEC REPOS:
+  trunk:
+    - SVProgressHUD
 
 EXTERNAL SOURCES:
   JLLog:
     :path: JLLog
 
 SPEC CHECKSUMS:
-  JLLog: f4143706f34278d96266fe6c0f61663b1b5ada40
+  JLLog: d213025c045280688e417c5b77fdcd2e55d9bf3e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: 4c39560626226e747e6162977032812f1f8c3fc2
 
